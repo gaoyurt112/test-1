@@ -5,12 +5,12 @@ import logo from './assets/images/logo.png'
 function App () {
   return (
     <div className="App">
-      <Row wrap={true} className="menu" >
-        <Col xs={24} lg={8} className="logo">
-          <img src={logo} alt="宏大集团" />
+      <Row className="menu" justify="space-between">
+        <Col xs={24} lg={5} className="logo">
+          <img src={logo} alt="" />
         </Col>
         <Col xs={24} lg={16} className="menuBar">
-          <Row className='menu-btn'>
+          <Row className='menu-btn' justify="end">
             <Col xs={8} lg={2}>走进宏大</Col>
             <Col xs={8} lg={2}>企业文化</Col>
             <Col xs={8} lg={2}>新闻中心</Col>
