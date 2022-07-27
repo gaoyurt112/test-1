@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { Row, Col } from 'antd'
+import './App.scss'
+import logo from './assets/images/logo.png'
 
-function App() {
+function App () {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Row wrap={true} className="menu" >
+        <Col xs={24} lg={8} className="logo">
+          <img src={logo} alt="宏大集团" />
+        </Col>
+        <Col xs={24} lg={16} className="menuBar">
+          <Row className='menu-btn'>
+            <Col xs={8} lg={2}>走进宏大</Col>
+            <Col xs={8} lg={2}>企业文化</Col>
+            <Col xs={8} lg={2}>新闻中心</Col>
+            <Col xs={8} lg={2}>投资领域</Col>
+            <Col xs={8} lg={2}>代表项目</Col>
+            <Col xs={8} lg={2}>社会责任</Col>
+            <Col xs={8} lg={2}>党群工作</Col>
+            <Col xs={8} lg={2}>合作共赢</Col>
+            <Col xs={8} lg={2}>联系我们</Col>
+          </Row>
+        </Col>
+      </Row>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
