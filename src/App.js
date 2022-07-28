@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react'
 import './App.scss'
 import logo from './assets/images/logo.png'
 
+
 const items = [
   {
     label: '走进宏大',
@@ -66,6 +67,7 @@ function App () {
     console.log('click ', e)
   }
 
+  //切换菜单类型
   const menuChaneg = () => {
     if (pageWidth < 1200) {
       return (
@@ -83,6 +85,7 @@ function App () {
       )
     }
   }
+
   return (
     <div className="App">
       <div className='bgc'>
@@ -123,10 +126,22 @@ function App () {
           <Col xs={24} lg={6} className="content-title">投资领域</Col>
         </Row>
         <Row justify="center">
-          <Col xs={20} lg={16} className="artical-container">1200 400</Col>
+          <Col xs={20} md={10} lg={16} className="artical-container">
+            <div className='artical-img-1'></div>
+            <div className='artical-bgc1'>
+              <div className='artical-bgc-1'></div>
+              <div className='artical-bgc-2'></div>
+            </div>
+          </Col>
         </Row>
         <Row justify="center">
-          <Col xs={20} lg={16} className="artical-container"></Col>
+          <Col xs={20} lg={16} className="artical-container">
+            <div className='artical-bgc2'>
+              <div className='artical-bgc2-2'></div>
+              <div className='artical-bgc2-1'></div>
+            </div>
+            <div className='artical-img-2'></div>
+          </Col>
         </Row>
         <Row justify="center">
           <Col xs={20} lg={16} className="artical-container"></Col>
