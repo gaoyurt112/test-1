@@ -43,26 +43,26 @@
       }
     }
   }
-  .container {
-    width: 100%;
-    margin-top: 1.89rem;
-    .content-title-en {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 0.6rem;
-      color: #999999;
-      font-weight: 600;
-      letter-spacing: 0.04rem;
-    }
-    .content-title {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 0.29rem;
-      font-size: 0.72rem;
-      font-weight: 700;
-    }
+}
+.container {
+  width: 100%;
+  margin-top: 1.89rem;
+  .content-title-en {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6rem;
+    color: #999999;
+    font-weight: 600;
+    letter-spacing: 0.04rem;
+  }
+  .content-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.29rem;
+    font-size: 0.72rem;
+    font-weight: 700;
   }
 }
 //mobile
