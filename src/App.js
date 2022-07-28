@@ -123,19 +123,19 @@ function App () {
           <Col xs={24} lg={6} className="content-title">投资领域</Col>
         </Row>
         <Row justify="center">
-          <Col span={16} className="tdyj">1200 400</Col>
+          <Col xs={20} lg={16} className="artical-container">1200 400</Col>
         </Row>
         <Row justify="center">
-          <Col span={16}></Col>
+          <Col xs={20} lg={16} className="artical-container"></Col>
         </Row>
         <Row justify="center">
-          <Col span={16}></Col>
+          <Col xs={20} lg={16} className="artical-container"></Col>
         </Row>
         <Row justify="center">
-          <Col span={16}></Col>
+          <Col xs={20} lg={16} className="artical-container"></Col>
         </Row>
-
       </div>
+      <div className="footer"></div>
 
 
 
