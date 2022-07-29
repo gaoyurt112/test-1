@@ -1,12 +1,15 @@
+//文章卡片组件
+
+//antd组件
 import { Col, Button } from 'antd'
 import './index.scss'
 import { useEffect, useState } from 'react'
 
 function ArticalCardL (props) {
+  //解构父组件传递的数据
   const { imgStyle, info, title } = props
   //监听尺寸
   const [pageWidth, setpageWidth] = useState(1200)
-
   useEffect(() => {
     const setWidth = () => {
       setpageWidth(document.body.clientWidth)
@@ -15,6 +18,7 @@ function ArticalCardL (props) {
 
   }, [])
 
+  //切换组件
   const ChangeText = () => {
     if (pageWidth < 992) {
       return (
@@ -35,8 +39,6 @@ function ArticalCardL (props) {
 
     }
   }
-
-
 
   return (
     <Col xs={20} sm={20} md={20} lg={16} className="artical-container">
