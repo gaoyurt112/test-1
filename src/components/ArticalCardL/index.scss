@@ -1,0 +1,207 @@
+@media screen and (min-width: 1200px) {
+  .artical-img-1 {
+    height: 100%;
+    width: 50%;
+    background: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .artical-bgc1 {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 68%;
+    height: 100%;
+    .artical-bgc-1 {
+      float: left;
+      width: 100px;
+      height: 100%;
+      border-top: 400px solid transparent;
+      border-right: 100px solid #edc62d;
+    }
+    .artical-bgc-2 {
+      position: relative;
+      float: left;
+      flex: 1;
+      height: 100%;
+      width: 80%;
+      background: linear-gradient(to right, #edc62d, #ebc42a);
+      .text-content {
+        width: 86%;
+        height: 4.6rem;
+        margin-top: 1.56rem;
+        margin-left: 0.84rem;
+        .text-title {
+          color: #fff;
+          height: 0.8rem;
+          font-size: 26px;
+          font-weight: 700;
+        }
+        .text-artical {
+          color: #fff;
+          width: 100%;
+          margin-top: 0.46rem;
+          font-size: 16px;
+          word-wrap: break-word; //设置文本自动换行
+          word-break: normal;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1199px) {
+  .artical-img-1 {
+    height: 100%;
+    width: 50%;
+    background: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .artical-bgc1 {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 68%;
+    height: 100%;
+    .artical-bgc-1 {
+      float: left;
+      width: 100px;
+      height: 100%;
+      border-top: 328px solid transparent !important;
+      border-right: 100px solid #edc62d;
+    }
+    .artical-bgc-2 {
+      float: left;
+      flex: 1;
+      height: 100%;
+      width: 80%;
+      background: linear-gradient(to right, #edc62d, #ebc42a);
+      .text-content {
+        width: 86%;
+        height: 4.6rem;
+        margin-top: 1.56rem;
+        margin-left: 0.84rem;
+        .text-title {
+          color: #fff;
+          height: 0.8rem;
+          font-size: 26px;
+          font-weight: 700;
+        }
+        .text-artical {
+          color: #fff;
+          width: 100%;
+          margin-top: 0.46rem;
+          font-size: 16px;
+          word-wrap: break-word; //设置文本自动换行
+          word-break: normal;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .artical-img-1 {
+    height: 100%;
+    width: 50%;
+    background: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .artical-bgc1 {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 68%;
+    height: 100%;
+    .artical-bgc-1 {
+      float: left;
+      width: 100px;
+      height: 100%;
+      border-top: 256px solid transparent !important;
+      border-right: 100px solid #edc62d;
+    }
+    .artical-bgc-2 {
+      float: left;
+      flex: 1;
+      height: 100%;
+      background: linear-gradient(to right, #edc62d, #ebc42a);
+      .text-content {
+        width: 86%;
+        height: 4.6rem;
+        margin-top: 1.56rem;
+        margin-left: 0.84rem;
+        .text-title {
+          color: #fff;
+          height: 0.8rem;
+          font-size: 26px;
+          font-weight: 700;
+        }
+        .ant-btn {
+          position: absolute;
+          bottom: 77px;
+          right: 31px;
+          span {
+            color: #fff;
+            font-size: 26px;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 350px) {
+  .artical-img-1 {
+    height: 100%;
+    width: 50%;
+    background: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .artical-bgc1 {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 85%;
+    height: 100%;
+    .artical-bgc-1 {
+      float: left;
+      width: 100px;
+      height: 100%;
+      border-top: 120px solid transparent !important;
+      border-right: 30px solid #edc62d;
+    }
+    .artical-bgc-2 {
+      float: left;
+      flex: 1;
+      height: 100%;
+      background: linear-gradient(to right, #edc62d, #ebc42a);
+      .text-content {
+        width: 86%;
+        height: 4.6rem;
+        margin-top: 1.56rem;
+        margin-left: 0.84rem;
+        .text-title {
+          color: #fff;
+          height: 0.8rem;
+          font-size: 20px;
+          font-weight: 700;
+        }
+        .ant-btn {
+          position: absolute;
+          bottom: 20px;
+          right: 25px;
+          span {
+            color: #fff;
+            font-size: 20px;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}

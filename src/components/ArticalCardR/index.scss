@@ -1,0 +1,132 @@
+@media screen and (min-width: 1200px) {
+  .artical-img-2 {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .artical-bgc2 {
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 68%;
+    height: 100%;
+    z-index: 1;
+    .artical-bgc2-1 {
+      float: left;
+      width: 100px;
+      height: 100%;
+      border-top: 400px solid transparent;
+      border-left: 100px solid #b1b1b1;
+    }
+    .artical-bgc2-2 {
+      float: left;
+      flex: 1;
+      height: 100%;
+      background: linear-gradient(to right, #777777, #b1b1b1);
+    }
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1199px) {
+  .artical-img-2 {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .artical-bgc2 {
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 68%;
+    height: 100%;
+    z-index: 1;
+    .artical-bgc2-1 {
+      float: left;
+      width: 100px;
+      height: 100%;
+      border-top: 328px solid transparent;
+      border-left: 100px solid #b1b1b1;
+    }
+    .artical-bgc2-2 {
+      float: left;
+      flex: 1;
+      height: 100%;
+      background: linear-gradient(to right, #777777, #b1b1b1);
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .artical-img-2 {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .artical-bgc2 {
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 68%;
+    height: 100%;
+    z-index: 1;
+    .artical-bgc2-1 {
+      float: left;
+      width: 100px;
+      height: 100%;
+      border-top: 256px solid transparent;
+      border-left: 100px solid #b1b1b1;
+    }
+    .artical-bgc2-2 {
+      float: left;
+      flex: 1;
+      height: 100%;
+      background: linear-gradient(to right, #777777, #b1b1b1);
+    }
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 350px) {
+  .artical-img-2 {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .artical-bgc2 {
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 85%;
+    height: 100%;
+    z-index: 1;
+    .artical-bgc2-1 {
+      float: left;
+      width: 100px;
+      height: 100%;
+      border-top: 120px solid transparent;
+      border-left: 30px solid #b1b1b1;
+    }
+    .artical-bgc2-2 {
+      float: left;
+      flex: 1;
+      height: 100%;
+      background: linear-gradient(to right, #777777, #b1b1b1);
+    }
+  }
+}
